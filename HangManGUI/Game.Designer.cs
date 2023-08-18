@@ -81,10 +81,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Lucida Sans Typewriter", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label3.Location = new Point(145, 77);
+            label3.Font = new Font("Lucida Sans Typewriter", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label3.Location = new Point(130, 73);
             label3.Name = "label3";
-            label3.Size = new Size(0, 18);
+            label3.Size = new Size(0, 15);
             label3.TabIndex = 4;
             label3.UseWaitCursor = true;
             label3.Click += label3_Click;
@@ -94,7 +94,7 @@
             pictureBox1.ImageLocation = "C:\\Users\\OscarWhite\\source\\repos\\HangManGUI\\HangManGUI\\Images\\HangMan11.png";
             pictureBox1.Location = new Point(12, 40);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(127, 141);
+            pictureBox1.Size = new Size(98, 112);
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
@@ -138,7 +138,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(278, 199);
+            ClientSize = new Size(307, 199);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(incorrectLetters);
@@ -157,7 +157,7 @@
             PerformLayout();
         }
 
-   
+
 
         #endregion
 
