@@ -54,7 +54,7 @@ namespace HangManGUI
             }
         }
 
-        private string StringFormat(List<string> wordList, string padding)
+        static string StringFormat(List<string> wordList, string padding)
         {
             string wordString = "";
             foreach (string word in wordList)
@@ -65,7 +65,7 @@ namespace HangManGUI
 
         }
 
-        string WordGen(List<int> difficulty)
+        static string WordGen(List<int> difficulty)
         {
             string currentDir = System.IO.Directory.GetCurrentDirectory();
             string PATH = Path.Combine(currentDir, "WordList.txt");
@@ -78,7 +78,7 @@ namespace HangManGUI
             return wordlist[rInt];
         }
 
-        List<int> DifficultySetter(int option)
+        static List<int> DifficultySetter(int option)
         {
             List<int> EASY = new() { 0, 820 };
             List<int> NORMAL = new() { 820, 1640 };
